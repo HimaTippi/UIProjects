@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>Responsive Layout</title>
+		<meta name="description" content="">
+		<meta name="author" content="Bindu">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/bootstrap-theme.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/custom.css" />
+
+		<link rel="stylesheet" href="https://js.arcgis.com/3.17/dijit/themes/claro/claro.css">
+    	<link rel="stylesheet" href="https://js.arcgis.com/3.17/esri/css/esri.css">
+		<script>var dojoConfig = {parseOnLoad: true};</script>
+    	<script src="https://js.arcgis.com/3.17/"></script>
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+	</head>
+
+	<body>
+
+		<div class="wrapper">
+
+			<!-- page one -->
+			<section class="module parallax parallax-1">
+				<div class="container">
+					<!-- top navigation -->
+					<nav id="myNavbar" class="navbar navbar-inverse navbar-fixed-top " role="navigation">
+					    <!-- Brand and toggle get grouped for better mobile display -->
+					    <div class="container">
+					        <div class="navbar-header">
+					            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
+					                <span class="sr-only">Toggle navigation</span>
+					                <span class="icon-bar"> </span>
+					                <span class="icon-bar"> </span>
+					                <span class="icon-bar"> </span>
+					            </button>
+					            <a class="navbar-brand" href="#">Dew</a>
+					        </div>
+					        <!-- Collect the nav links, forms, and other content for toggling -->
+					        <div class="collapse navbar-collapse  navbar-right" id="navbarCollapse">
+					            <ul class="nav navbar-nav">
+					                <li class="active"><a href="#pageOne">Home</a></li>
+					                <li><a href="#pageTwo">About</a></li>
+					                <li><a href="#pageThree">Product</a></li>
+					                <li><a href="#pageFour">Contact</a></li>
+					            </ul>
+					        </div>
+					    </div>
+					</nav>
+
+					 <div class="parallax-1content" id="pageOne">
+						<!-- <h2>Hello!!</h2> -->
+						 <h1>Empowering Growth With Real Data</h1>
+					</div> <!-- /.parallax-1content -->
+
+					<div class="clickDownIcon" id="scrollIcon">
+						<p class="iconText">V</p>
+					</div> <!-- /.clickDownIcon -->
+
+					 <!-- <div class="parallaxIcon">	fff
+					 	<!-- <img src="img/icon.png" alt="click icon" />
+					</div> <!-- /.parallax-1icon -->
+				</div> <!-- /.container -->
+			</section>
+
+			<!-- Info section -->
+			<section class="module content" id="pageTwo">
+			  <div class="container">
+			    <h2>OUR TECHNOLOGY</h2>
+			    <div class="row">
+			    	<article class="col-sm-4 col-md-4">
+			    		<h3><span>01 / </span> FAST</h3>
+			    		<p>
+			    			Lorem ipsum dolor sit amet, consectetur adipisicing elit
+			    			Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+			    			Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+			    			Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+			    		</p>
+			    	</article>
+			    	<article class="col-sm-4  col-md-4">
+			    		<h3><span>02 / </span> SECURE</h3>
+			    		<p>
+			    			Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+			    			Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+			    			Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+			    		</p>
+			    	</article>
+			    	<article class="col-sm-4 col-md-4">
+			    		<h3><span>03 / </span> EASY</h3>
+			    		<p>
+			    			Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+			    			Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+			    			Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+			    		</p>
+			    	</article>
+			    </div> <!-- /.row -->
+			  </div> <!-- /.container -->
+			</section>
+
+
+			<section class="module parallax parallax-2">
+			  <div class="container">
+			    <h1>Rise</h1>
+			  </div>
+			</section>
+
+			<!-- Meet us section -->
+			<section class="module content" id="pageThree">
+			  <div class="container">
+			    <h2>MEET DEW</h2>
+			    <div class="row">
+			    	<article class="col-sm-4 col-md-4">
+			    		<img src="img/story.png" alt="story image" class="articleImage"/>
+			    		<h3>OUR STORY</h3>
+			    		<p>
+			    			Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+			    			Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+			    			Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+			    			Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+			    			Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+			    			Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+			    		</p>
+			    	</article>
+			    	<article class="col-sm-4  col-md-4">
+			    		<img src="img/vision.png" alt="vision image" class="articleImage"/>
+			    		<h3>OUR VISION</h3>
+			    		<p>
+			    			Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+			    			Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+			    			Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+			    			Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+			    			Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+			    			Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+			    		</p>
+			    	</article>
+			    	<article class="col-sm-4 col-md-4">
+			    		<img src="img/technology.png" alt="technology image" class="articleImage"/>
+			    		<h3>OUR TECHNOLOGY</h3>
+			    		<p>
+			    			Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+			    			Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+			    			Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+			    			Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+			    			Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+			    			Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+			    		</p>
+			    	</article>
+			    </div> <!-- /.row -->
+			  </div> <!-- /.container -->
+			</section>
+
+			<section class="module parallax parallax-3">
+			  <div class="container">
+			    <h1>Calm</h1>
+			  </div>
+			</section>
+
+			<!-- Contact us section -->
+			<section class="module content" id="pageFour">
+			  <div class="container">
+			    <h2>GET IN TOUCH</h2>
+			    <div class="row">
+			    <article class="col-sm-4 col-md-4  ">
+			    		<p class="getInTouch">
+			    			info@dew.com
+			    			<br />
+			    			info@mydew.com
+			    		</p>
+			    	</article>
+			    	<article class="col-sm-4 col-md-4">
+			    		<p class="getInTouch">
+			    			Tel: 123-456-7890
+			    			<br />
+			    			Fax: 123-456-7890
+			    		</p>
+			    	</article>
+			    	<article class="col-sm-4 col-md-4">
+			    		<p class="getInTouch">
+			    			789 kiely blvd
+			    			<br />
+			    			San Francisco, CA 94255
+			    		</p>
+			    	</article>
+			    </div> <!-- /.row -->
+			  </div> <!-- /.container -->
+			</section>
+
+			<!-- Map section -->
+			<section class="module">
+			  <!-- <div class="container">
+			    <h1>MAP</h1> -->
+			    <div data-dojo-type="dijit.layout.BorderContainer"
+			         data-dojo-props="design:'headline', gutters:false"
+			         style="width: 100%; height: 100%; margin: 0;">
+
+			      <div id="map"
+			           data-dojo-type="dijit.layout.ContentPane"
+			           data-dojo-props="region:'center'">
+			     </div>
+
+			    </div>
+			  <!-- </div> -->
+			</section>
+
+			<section class="module content ">
+			  <div class="container">
+			    <h2>See you at Dew</h2>
+			  </div>
+			</section>
+
+
+
+			<!-- Footer section -->
+			<div class="topLine"> </div>
+			<section class="module content footerDiv">
+			  <div class="container">
+			    <h2>DEW</h2>
+			    <div class="row">
+			    	<article class="col-sm-4 col-md-4 footerInfo">
+			    		<h5>LINKS</h5>
+			    		<ul>
+			    			<li>Home</li>
+			    			<li>About</li>
+			    			<li>Product</li>
+			    			<li>Contact</li>
+			    		</ul>
+			    	</article>
+			    	<article class="col-sm-4  col-md-4 footerInfo">
+			    		<h5>ABOUT</h5>
+			    		<ul>
+			    			<li>info @ dew.com</li>
+			    			<li>Tel: 123-456-7890</li>
+			    			<li>789 kiely blvd<br />
+			    			San Francisco, CA 94255</li>
+			    		</ul>
+			    	</article>
+			    	<article class="col-sm-4 col-md-4 footerInfo">
+			    		<h5>SOCIAL</h5>
+			    		<ul>
+			    			<li>Instogram</li>
+			    			<li>Facebook</li>
+			    			<li>Tweeter</li>
+			    			<li>Google+</li>
+			    			<!-- <li class="hiddenText"> v</li> -->
+			    		</ul>
+			    	</article>
+			    </div> <!-- /.row -->
+			  </div> <!-- /.container -->
+			</section>
+
+			<div class="line"> </div>
+			<footer class="footer">
+				<span>
+					&copy; Copyright  by Dew
+				</span>
+			</footer>
+
+
+		</div> <!-- /.wrapper -->
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+    	<script src="js/jquery-1.12.4.js"></script>
+    	<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+
+		<script src="js/mainScript.js"></script>
+
+	</body>
+</html>

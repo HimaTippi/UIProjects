@@ -1,0 +1,56 @@
+body {
+
+}
+
+.navbar-inverse {
+  background-color:  rgba(233,235,239,1)/*#E9EBEF*/;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid #B0B0B0;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+   color: #b10128;
+  /*background-color: #0092A8;*/
+   border-bottom: 1px dotted #b10128;
+}
+.navbar-nav > li > a {
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.navbar-inverse .navbar-nav > li > a {
+	color: #666;
+}
+.navbar-inverse .navbar-brand {
+	color: #28a4c9;
+	font-size: 28px;
+}
+#myNavbar {
+  font-family: "Rockwell", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: #333;
+}
+@media all and (min-width: 768px) {
+  section.module h2 {
+    font-size: 82px;
+    font-weight: 500;
+  }
+ }
+ section.module.parallax-2,
+  section.module.parallax-3 {
+  height: 500px;
+}
+ section.module.parallax-2 h1,
+  section.module.parallax-3 h1 {
+  padding-top:  200px;
+}
+/* ============================================================
+  NAV
+============================================================ */
+#navbarCollapse ul li .active {
+	border-bottom:  3px solid #666;
+}
